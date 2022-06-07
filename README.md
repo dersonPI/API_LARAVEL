@@ -11,21 +11,21 @@
 <h3>Configure the .env file</h3>
 <p>$cp .env.example .env</p>
 <p>nano .env</p>
-<textarea>
-//CONFIGURE WITH YOUR DOCKER DATA
-APP_NAME=FUTURE_SPACE
-APP_ENV=dev
-APP_KEY=
-APP_DEBUG=true
-APP_URL=http://localhost:8000
-LOG_CHANNEL=stack
-DB_CONNECTION=mysql
-DB_HOST=db
-DB_PORT=3306
-DB_DATABASE=docker
-DB_USERNAME=docker
-DB_PASSWORD=password
-</textarea>
+
+<h3>##CONFIGURE WITH YOUR DOCKER DATA</h3>
+    <p>APP_NAME=FUTURE_SPACE</p>
+<p>APP_ENV=dev</p>
+<p>APP_KEY=</p>
+<p>APP_DEBUG=true</p>
+<p>APP_URL=http://localhost:8000</p>
+<p>LOG_CHANNEL=stack</p>
+<p>DB_CONNECTION=mysql</p>
+<p>DB_HOST=db</p>
+<p>DB_PORT=3306</p>
+<p>DB_DATABASE=docker</p>
+<p>DB_USERNAME=docker</p>
+<p>DB_PASSWORD=password</p>
+
 
 <h3>START DOCKER</h3>
 <p>Use laradock path to start container</p>
